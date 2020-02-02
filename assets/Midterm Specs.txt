@@ -1,0 +1,25 @@
+Index
+
+Dementions: W - 1366 px, H - 1649px. Margin - 18px(head and foot), 76px (body) and 161px (prod).
+nav: w- 1330px, h - 126px
+logo: w -194px, h- 194px
+promo img: w- 766px, h- 460px
+promo txt: w- 376px, h - 460px
+img: w- 1213 px, h- 154px
+prod1:w- 264px, h- 367px
+prod2:w- 264px, h- 367px
+prod3:w- 264px, h- 367px
+social: w- 498px h - 206px
+contact: w- 718px h - 206px
+
+Location
+
+Dementions: W - 1366 px, H - 1608px. Margin - 18px(head and foot) and 76px (body).
+nav: w- 1330px, h - 126px
+logo: w - 194px, h- 194px
+img: w - 1194px, h- 274px
+info:w - 659 px, h- 445px
+map:w - 500px, h- 445px
+info 2:w - 1194px, h- 240px
+social: w- 498px h - 206px
+contact: w- 718px h - 206px
