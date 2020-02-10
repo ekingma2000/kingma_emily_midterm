@@ -1,0 +1,21 @@
+red: #EA3547
+beige: #CD996C
+blue:#1B3E77
+
+container
+
+width:1200px;
+height:1653px;
+
+logo
+
+margin-top:26px;
+
+nav
+
+margin-left:51px;
+
+footer
+
+width:1200px;
+height:212px;
