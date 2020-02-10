@@ -168,16 +168,7 @@ button{
 /*End Index Styling*/
 
 /*Start Locations Styling*/
-#containerL{
-	display: block;
-	flex-wrap: wrap;
-	width:1366px; 
-	height:1608px;
-	text-align: center;
-	color: white;
-	font-family: "Arial";
-	font-size: 24px;
-}
+
 #imgL{
 	background-color: black;
 	width:1194px; 
