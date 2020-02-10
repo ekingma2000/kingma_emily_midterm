@@ -7,98 +7,163 @@
 #container{
 	display: block;
 	flex-wrap: wrap;
-	width:1366px; 
-	height:1649px;
+	width:1200px; 
+	height:1449px;
 	text-align: center;
 	color: white;
 	font-family: "Arial";
 	font-size: 24px;
+	background-color:#1B3E77; 
+	margin: 0 auto;
+}
+.header{
+	width: 1200px;
+	height: 151px;
+	background-color: #ffffff;
 }
 .nav{
-	width: 1330px;
-	height: 126px;
-	background-color: black;
+	width: 1110px;
+	height: 120px;
 	z-index: 1;
-	margin-top: 64px;
-	margin-left: 18px;
-	text-align: right;
+	object-fit: cover;
+	margin-top: 60px;
+	margin-left: 40px;
+	background-image: url("../images/MainNav.png");
+}
+.nav li{
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 100px;
+
+}
+.nav li:hover{
+	color: red;
+	transform: scale(1.01);
+	transition: ease 0.5s;
 }
 .logo{
-	width: 194px;
+	width: 235px;
 	height: 194px;
-	background-color: black;
 	position: absolute;
 	top: 30px;
-	left: 585px;
+	left: 555px;
 	z-index: 2;
-	text-align: center;
+}
+.headBanner{
+	width: 1200px;
+	height: 300px;
+	margin-top: 30px;
 }
 #promoImg{
 	display: inline-block;
 	float: left;
 	margin-left: 76px;
 	margin-top: 88px;
-	width:766px;
-	height: 460px;
-	background-color: black;
+	width:612px;
+	height: 367px;
+	overflow: hidden;
+	
 }
+#promoImg figure img{
+	width: 30%;
+	float:left;
+}
+#promoImg figure{
+	position: relative;
+	width: 333.5%;
+	margin: 0;
+	left: 0;
+	animation: 20s promoImg infinite;
+}
+@keyframes promoImg {
+	0%{left:0;}
+	10%{left: 0}
+	33.33%{left:-100%;}
+	45%{left: -100%;}
+	66.66%{left: -200%;}
+	80% {left: -200%;}
+	100%{left: 0;}
+}
+
 #promoTxt{
 	display: inline-block; 
 	margin-top: 87px;
-	width: 376px;
-	height: 460px;
-	background-color: black; 
+	width: 362px;
+	height: 362px;
+	background-image: url("../images/about.png");
+}
+#promoTxt h4{
+	margin-top: 30px;
+}
+#promoTxt p{
+	color: black;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+	margin-top: 20px;
 }
 #img{
-	width: 1213px;
-	height: 154px;
 	margin:auto;
-	background-color: black;
 	margin-top: 60px;
+	width: 725px;
+	height: 80px;
+	background-image: url("../images/product_banner.png");
+}
+#img h3{
+	padding-top: 15px;
+	font-size: 50px;
 }
 #prodOne{
 	display: inline-block;
-	width: 264px;
-	height: 367px;
-	background-color: black;
 	margin-left:161px; 
 	margin-top: 80px;
 	float: left;
+}
+#prodOne:hover{
+	transform: scale(1.03);
+	transition: ease 1s;
 }
 #prodTwo{
 	display: inline-block;
 	width: 264px;
 	height: 367px;
-	background-color: black;
 	margin:auto;
 	margin-top: 80px;
+}
+#prodTwo:hover{
+	transform: scale(1.03);
+	transition: ease 1s;
+}
+button{
+	margin-top: 50px;
+	height: 50px;
+	width:150px;
+	margin-left: -30px;
 }
 #prodThree{
 	display: inline-block;
 	width: 264px;
 	height: 367px;
-	background-color: black;
 	float: right;
 	margin-right: 161px;
 	margin-top: 80px;
 }
-.social{
-	display: inline-block;
-	background-color: black;
-	width:498px;
-	height:206px;
-	margin-top: 60px;
-	margin-left: 18px;
-	float: left;
+#prodThree:hover{
+	transform: scale(1.03);
+	transition: ease 1s;
 }
-.contact{
+.footer{
 	display: inline-block;
-	width:718px;
-	height:206px;
+	background-color: white;
+	width:1200px;
+	height:212px;
 	margin-top: 60px;
-	margin-right: 18px;
-	float: right;
-	background-color: black;
+
+}
+.footer nav{
+	text-decoration: none;
+	color: black;
+
 }
 /*End Index Styling*/
 
