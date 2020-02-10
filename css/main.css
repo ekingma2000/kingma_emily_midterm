@@ -134,7 +134,7 @@
 	transform: scale(1.03);
 	transition: ease 1s;
 }
-button{
+#prodTwo button{
 	margin-top: 50px;
 	height: 50px;
 	width:150px;
@@ -198,4 +198,71 @@ button{
 	height: 240px;
 	margin-top: 50px;
 	margin-left: 76px;
+}
+/*art*/
+.rowOne{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 150px;
+	z-index: 1;
+}
+
+.artLeft{
+	position: absolute;
+	z-index: 2;
+	margin-left: -400px;
+	margin-top: 40px; 
+}
+.artCenter{
+	position: absolute;
+	z-index: 2;
+	margin-top: 40px; 
+}
+.artRight{
+	position: absolute;
+	z-index: 2;
+	margin-left: 400px;
+	margin-top: 40px; 
+}
+.artLeft:hover{
+	animation: 3s artLeft infinite;
+
+}
+.artCenter:hover{ 
+	animation: 3s artCenter infinite;
+}
+.artRight:hover{
+	animation: 3s artRight infinite;
+}
+@keyframes artLeft{
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(-20px);}
+	100%{transform: translateY(0px);}	
+}
+@keyframes artCenter{
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(-20px);}
+	100%{transform: translateY(0px);}	
+}
+@keyframes artRight{
+	0%{transform: translateY(0px);}
+	50%{transform: translateY(-20px);}
+	100%{transform: translateY(0px);}	
+}
+.rowTwo{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+}
+#artBtn{
+	margin-top: 100px;
+	height: 40px;
+	width: 150px;
+}
+/*contact*/
+#contactBox{
+	background-image: url("../images/contact.png");
+	width:831px; 
+	height:667px;
+	margin:0 auto;
 }
