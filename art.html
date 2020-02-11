@@ -8,18 +8,21 @@
 </head>
 <body>
 	<main id="container">
-		<h1 class="hidden">index page</h1>
+		<h1 class="hidden">art page</h1>
 		<header class="header">
 			<h2 class="hidden">Header</h2>
-			<nav class="nav">
+			<div class="mainNav">
 				<h3 class="hidden">Nav</h3>
-				<ul>
-					<li><a href="#"></a>Creative Influence</li>
-					<li><a href="#"></a>Our Beers</li>
-					<li><a href="#"></a>Locations</li>
-					<li><a href="#"></a>Message Us</li>
-				</ul>
-			</nav>
+					<nav>
+						<h3 class="hidden">mainNav</h3>
+						<ul>
+							<li><a href="#"></a>Creative Influence</li>
+							<li><a href="beer.html"></a>Our Beers</li>
+							<li><a href="locations.html"></a>Locations</li>
+							<li><a href="contact.html"></a>Message Us</li>
+						</ul>
+					</nav>
+			</div>
 			<div class="logo">
 				<h3 class="hidden">Logo</h3>
 				<img src="images/logo.png" alt="logo">
@@ -31,24 +34,28 @@
 		<div>
 			<h2 class="hidden">Main Body</h2>
 			<div class="rowOne">
-				<!--BG-->
-				<img src="images/vector2_BG.png" alt="art1" width="300px">
-				<img src="images/vector2_BG.png"alt="art2"width="300px">
-				<img src="images/vector2_BG.png"alt="art3"width="300px">
-				<!--FG-->
-				<img  class="artLeft"src="images/vector2_FG.png" alt="art1" width="250px">
-				<img  class="artCenter"src="images/vector2_FG.png" alt="art1" width="250px">
-				<img  class="artRight"src="images/vector2_FG.png" alt="art1" width="250px">
+				<div class="bg">
+					<img src="images/vector2_BG.png" alt="art1" >
+					<img src="images/vector2_BG.png" alt="art2">
+					<img src="images/vector2_BG.png" alt="art3">
+				</div>
+				<div class="fg">
+					<img  class="artLeft" src="images/vector2_FG.png" alt="art1">
+					<img  class="artCenter" src="images/vector2_FG.png" alt="art1">
+					<img  class="artRight" src="images/vector2_FG.png" alt="art1">
+				</div>
 			</div>
 			<div class="rowTwo">
-				<!--BG-->
-				<img src="images/vector2_BG.png"alt="art4"width="300px">
-				<img src="images/vector2_BG.png"alt="art5"width="300px">
-				<img src="images/vector2_BG.png"alt="art6"width="300px">
-				<!--FG-->
-				<img  class="artLeft"src="images/vector2_FG.png" alt="art4" width="250px">
-				<img  class="artCenter"src="images/vector2_FG.png" alt="art1" width="250px">
-				<img  class="artRight"src="images/vector2_FG.png" alt="art1" width="250px">
+				<div class="bg">
+					<img src="images/vector2_BG.png" alt="art4">
+					<img src="images/vector2_BG.png" alt="art5">
+					<img src="images/vector2_BG.png" alt="art6">
+				</div>
+				<div class="fg">
+					<img  class="artLeft" src="images/vector2_FG.png" alt="art4" >
+					<img  class="artCenter" src="images/vector2_FG.png" alt="art1" >
+					<img  class="artRight" src="images/vector2_FG.png" alt="art1">
+				</div>
 			</div>
 		</div>
 		<button id="artBtn">Submit Art</button>
@@ -56,11 +63,12 @@
 			<h2 class="hidden">Footer</h2>
 			<div class="footer">
 				<nav>
+					<h3 class="hidden">footerNav</h3>
 					<ul>
-						<li><a href="#">Submit Art</a></li>
-						<li><a href="#">Beer</a></li>
-						<li><a href="#">Locations</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="art.html">Submit Art</a></li>
+						<li><a href="beer.html">Beer</a></li>
+						<li><a href="locations.html">Locations</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
