@@ -8,18 +8,21 @@
 </head>
 <body>
 	<main id="container">
-		<h1 class="hidden">index page</h1>
+		<h1 class="hidden">contact page</h1>
 		<header class="header">
 			<h2 class="hidden">Header</h2>
-			<nav class="nav">
+			<div class="mainNav">
 				<h3 class="hidden">Nav</h3>
-				<ul>
-					<li><a href="#"></a>Creative Influence</li>
-					<li><a href="#"></a>Our Beers</li>
-					<li><a href="#"></a>Locations</li>
-					<li><a href="#"></a>Message Us</li>
-				</ul>
-			</nav>
+					<nav>
+						<h3 class="hidden">mainNav</h3>
+						<ul>
+							<li><a href="#"></a>Creative Influence</li>
+							<li><a href="beer.html"></a>Our Beers</li>
+							<li><a href="locations.html"></a>Locations</li>
+							<li><a href="contact.html"></a>Message Us</li>
+						</ul>
+					</nav>
+			</div>
 			<div class="logo">
 				<h3 class="hidden">Logo</h3>
 				<img src="images/logo.png" alt="logo">
@@ -30,18 +33,25 @@
 		</header>
 		<div>
 			<h2 class="hidden">Main Body</h2>
-			<img src="images/product_banner.png">
-			<h3 id="contactBox">txt</h3>
+			<h3 id="contactBanner">Contact</h3>
+			<div id="contactBox">
+				<input type="text" name="name" placeholder="Name...">
+				<input type="email" name="email" placeholder="Email...">
+				<input type="text" name="subject" placeholder="Subject...">
+				<textarea placeholder="Message..."></textarea>
+				<button>Enter</button>
+			</div>
 		</div>
 		<footer>
 			<h2 class="hidden">Footer</h2>
 			<div class="footer">
 				<nav>
+					<h3 class="hidden">footerNav</h3>
 					<ul>
-						<li><a href="#">Submit Art</a></li>
-						<li><a href="#">Beer</a></li>
-						<li><a href="#">Locations</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="art.html">Submit Art</a></li>
+						<li><a href="beer.html">Beer</a></li>
+						<li><a href="locations.html">Locations</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>

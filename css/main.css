@@ -16,12 +16,24 @@
 	background-color:#1B3E77; 
 	margin: 0 auto;
 }
+#containerShort{
+	display: block;
+	flex-wrap: wrap;
+	width:1200px; 
+	height:1349px;
+	text-align: center;
+	color: white;
+	font-family: "Arial";
+	font-size: 24px;
+	background-color:#1B3E77; 
+	margin: 0 auto;
+}
 .header{
 	width: 1200px;
 	height: 151px;
 	background-color: #ffffff;
 }
-.nav{
+.mainNav{
 	width: 1110px;
 	height: 120px;
 	z-index: 1;
@@ -30,13 +42,19 @@
 	margin-left: 40px;
 	background-image: url("../images/MainNav.png");
 }
-.nav li{
-	display: inline-block;
+.mainNav li{
+	display: inline;
+	float: left;
 	padding-top: 50px;
-	padding-left: 100px;
-
+	padding-left: 80px;
 }
-.nav li:hover{
+.mainNav li:nth-child(2){
+	padding-left: 40px;
+}
+.mainNav li:nth-child(3){
+	padding-left: 280px;
+}
+.mainNav li:hover{
 	color: red;
 	transform: scale(1.01);
 	transition: ease 0.5s;
@@ -134,12 +152,8 @@
 	transform: scale(1.03);
 	transition: ease 1s;
 }
-#prodTwo button{
-	margin-top: 50px;
-	height: 50px;
-	width:150px;
-	margin-left: -30px;
-}
+
+
 #prodThree{
 	display: inline-block;
 	width: 264px;
@@ -148,6 +162,11 @@
 	margin-right: 161px;
 	margin-top: 80px;
 }
+#indexBtn{
+	margin-top: 50px;
+	height: 50px;
+	width:150px;
+	margin-left: -30px;}
 #prodThree:hover{
 	transform: scale(1.03);
 	transition: ease 1s;
@@ -158,71 +177,45 @@
 	width:1200px;
 	height:212px;
 	margin-top: 60px;
-
-}
-.footer nav{
 	text-decoration: none;
 	color: black;
-
 }
+
 /*End Index Styling*/
 
-/*Start Locations Styling*/
-
-#imgL{
-	background-color: black;
-	width:1194px; 
-	height:274px ;
-	margin-top: 80px;
-	margin-left: 76px;
-}
-#infoOne{
-	display: inline-block;
-	background-color: black;
-	width:659px; 
-	height:445px ;
-	margin-top: 50px;
-	margin-left: 66px;
-}
-#map{
-	display: inline-block;
-	background-color: black;
-	width:500px; 
-	height:445px;
-	margin-top: 50px;
-	margin-right: 76px;
-}
-#infoTwo{
-	background-color: black;
-	width:1194px; 
-	height: 240px;
-	margin-top: 50px;
-	margin-left: 76px;
-}
 /*art*/
 .rowOne{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 150px;
 	z-index: 1;
+	margin-left: 100px;
 }
+
 
 .artLeft{
 	position: absolute;
 	z-index: 2;
-	margin-left: -400px;
+	margin-left: -980px;
 	margin-top: 40px; 
+	max-width: 250px;
+	height: auto;
 }
 .artCenter{
 	position: absolute;
 	z-index: 2;
 	margin-top: 40px; 
+	max-width: 250px;
+	height: auto;
+	margin-left: -680px;
 }
 .artRight{
 	position: absolute;
 	z-index: 2;
-	margin-left: 400px;
-	margin-top: 40px; 
+	margin-left: -370px;
+	margin-top: 40px;
+	max-width: 250px;
+	height: auto; 
 }
 .artLeft:hover{
 	animation: 3s artLeft infinite;
@@ -253,6 +246,7 @@
 	display: flex;
 	justify-content: space-around;
 	margin-top: 60px;
+	margin-left: 100px;
 }
 #artBtn{
 	margin-top: 100px;
@@ -260,9 +254,127 @@
 	width: 150px;
 }
 /*contact*/
+#contactBanner{
+	background-image:url("../images/product_banner.png");
+	width: 728px;
+	height: 82px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 60px;
+}
+
 #contactBox{
 	background-image: url("../images/contact.png");
 	width:831px; 
 	height:667px;
 	margin:0 auto;
+	margin-top: 80px;
+}
+#contactBox button{
+	margin-top: 30px;
+	height: 40px;
+	width: 120px;
+}
+input {
+	background-color: lightgrey;
+	height: 50px;
+	width: 391px;
+	flex-wrap: wrap;
+	margin-top: 100px;
+}
+input:nth-child(3){
+	width:800px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+textarea{
+	background-color: lightgrey;
+	width: 800px;
+	height: 300px;
+	margin-top: 10px;
+}
+/*Locations*/
+.location{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+#locBanner{
+	background-image: url("../images/product_banner.png");
+	width: 728px;
+	height: 82px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 60px;
+}
+#locTxt{
+	background-image: url("../images/locationTxt.png");
+	width: 601px;
+	height: 407px;
+	margin-top: 70px;
+	color: black;
+	font-size: 16px;
+}
+#locTxt p{
+	margin-top: 50px;
+	text-align: left;
+	width: 500px;
+	margin-left: 40px;
+
+}
+#locTxt p:nth-child(4){
+	width: 250px;
+
+}
+#locTxt h4{
+	color: red;
+	font-size: 18px;
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: -40px;
+}
+#map{
+	background-image: url("../images/map.png");
+	width: 445px;
+	height: 396px;
+	margin-top: 75px;
+}
+#brook{
+	background-image: url("../images/brooklyn.png");
+	width: 1096px;
+	height: 225px;
+	margin-top: 20px;
+	font-size: 60px;
+}
+#brook h3{
+	margin-top: 80px;
+}
+/*beer*/
+#beerBanner{
+	background-image: url("../images/product_banner.png");
+	width: 728px;
+	height: 82px;
+	margin: 0 auto;
+	margin-top: 100px;
+	font-size: 60px;
+}
+.beerProd{
+	
+}
+.FirstRow{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+.SecRow{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 50px;
 }
