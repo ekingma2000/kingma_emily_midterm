@@ -1,0 +1,22 @@
+This is not my best work for sure. I feel like they layout doesnt work very well and the 
+style is boring and flat. I have plans to make it look and flow better for the FIP.
+
+For some reason main Nav's links don't work but the style does and the footer Nav's links
+work but the stlying doesnt? When we talk about the Midterms after would you mind telling 
+me what happened there and how i could improve?
+
+Also there is a lot of filler content or repeating content, I have plans to fill it with 
+something different but i just didnt have time make all of my original content.
+
+One last thing, the branding is more heavily leaning towards the Band-Aid brand over Collective 
+Arts but that will be fixed later. I was planning of having the majority styling be band-aid
+but have the concept of collective arts. So I will have beer bottles with different art on them 
+i just didn't get to making them just yet.
+
+Animations Reaserch 
+********************
+
+https://codepen.io/jcoulterdesign/pen/OMOqjy 
+https://codepen.io/MarioDesigns/pen/woJgeo 
+https://www.youtube.com/watch?v=L-vBR3vzOe8
+
